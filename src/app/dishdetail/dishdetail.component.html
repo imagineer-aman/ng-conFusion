@@ -5,6 +5,10 @@
     fxLayoutAlign.gt-md="space-around center"
     fxLayoutGap="10px" 
     fxLayoutGap.xs="0">
+  
+  <div [hidden]="dish">
+    <mat-spinner></mat-spinner><h4>Loading . . . Please Wait</h4>
+  </div>
 
   <div fxFlex="40">
     <div fxFlex >
@@ -44,5 +48,4 @@
         </mat-list-item>
     </mat-list>
   </div>
-
 </div>
