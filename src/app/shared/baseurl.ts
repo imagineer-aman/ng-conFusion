@@ -1,0 +1,1 @@
+export const baseURL = 'https://3002-dot-10218788-dot-devshell.appspot.com/';
